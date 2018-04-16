@@ -10,11 +10,15 @@ import { AgmCoreModule } from '@agm/core';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MDBSpinningPreloader } from './typescripts/pro/index';
+import { BaseComponent } from './base/base.component';
+import { AppRoutingModule } from './app-routing.module';
+// import { RouterModule } from '@angular/router';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    BaseComponent,
   ],
   imports: [
     BrowserModule,
@@ -28,7 +32,9 @@ import { MDBSpinningPreloader } from './typescripts/pro/index';
     AgmCoreModule.forRoot({
       // https://developers.google.com/maps/documentation/javascript/get-api-key?hl=en#key
       apiKey: 'Your_api_key'
-    })
+    }),
+    AppRoutingModule
+    
   ],
   providers: [MDBSpinningPreloader],
   bootstrap: [AppComponent],
