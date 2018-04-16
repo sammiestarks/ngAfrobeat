@@ -12,7 +12,10 @@ import { MDBSpinningPreloader } from './typescripts/pro/index';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+
 import { BaseComponent } from './base/base.component';
+
+import { FooterComponent } from './shared/footer/footer.component';
 
 
 import { NewsModule } from 'app/modules/news/news.module';
@@ -22,6 +25,8 @@ import { SharedModule } from 'app/shared/shared-module/shared.module';
   declarations: [
     AppComponent,
     BaseComponent
+
+    FooterComponent,
 
   ],
   imports: [
