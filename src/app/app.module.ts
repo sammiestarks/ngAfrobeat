@@ -10,11 +10,13 @@ import { AgmCoreModule } from '@agm/core';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MDBSpinningPreloader } from './typescripts/pro/index';
+import { HeaderComponent } from './shared/header/header.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
