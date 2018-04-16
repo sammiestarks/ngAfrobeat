@@ -14,6 +14,7 @@ import { BaseComponent } from './base/base.component';
 import { AppRoutingModule } from './app-routing.module';
 // import { RouterModule } from '@angular/router';
 import { HeaderComponent } from './shared/header/header.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 
 @NgModule({
@@ -23,6 +24,8 @@ import { HeaderComponent } from './shared/header/header.component';
     BaseComponent,
 
     HeaderComponent,
+
+    FooterComponent,
 
   ],
   imports: [
