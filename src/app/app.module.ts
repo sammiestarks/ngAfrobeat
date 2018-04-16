@@ -13,12 +13,17 @@ import { MDBSpinningPreloader } from './typescripts/pro/index';
 import { BaseComponent } from './base/base.component';
 import { AppRoutingModule } from './app-routing.module';
 // import { RouterModule } from '@angular/router';
+import { HeaderComponent } from './shared/header/header.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+
     BaseComponent,
+
+    HeaderComponent,
+
   ],
   imports: [
     BrowserModule,
