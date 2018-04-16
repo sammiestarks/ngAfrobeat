@@ -1,22 +1,42 @@
 
 <header>
-  <mdb-navbar class="view" SideClass="navbar fixed-top navbar-expand-lg navbar-dark bg-indigo scrolling-navbar intro-fixed-nav" [containerInside]="false">
-    <logo>
-      <a class="logo navbar-brand" href="#"><strong>Navbar</strong></a>
-    </logo>
-    <links>
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active waves-light" mdbRippleRadius>
-          <a class="nav-link">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item waves-light" mdbRippleRadius>
-          <a class="nav-link">Link</a>
-        </li>
-        <li class="nav-item waves-light" mdbRippleRadius>
-          <a class="nav-link">Profile</a>
-        </li>
-      </ul>
-    </links>
+  <mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark bg-indigo scrolling-navbar intro-fixed-nav" [containerInside]="false">
+    <div class="container navBar">
+      <logo>
+        <a class="logo navbar-brand" href="#"><img src="http://res.cloudinary.com/sammiestarks/image/upload/v1512465818/unnamed_hqta5f.jpg"></a>
+      </logo>
+      <links>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active waves-light" mdbRippleRadius>
+            <a class="nav-link">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item waves-light" mdbRippleRadius>
+            <a class="nav-link">Music</a>
+          </li>
+          <li class="nav-item waves-light" mdbRippleRadius>
+            <a class="nav-link">Celebrities</a>
+          </li>
+          <li class="nav-item waves-light" mdbRippleRadius>
+            <a class="nav-link">tv</a>
+          </li>
+          <li class="nav-item waves-light" mdbRippleRadius>
+            <a class="nav-link">events</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item waves-light" mdbRippleRadius>
+            <a class="nav-link">i-report</a>
+          </li>
+          <li class="nav-item waves-light" mdbRippleRadius>
+            <a class="nav-link">log-in</a>
+          </li>
+          <li class="nav-item waves-light" mdbRippleRadius style="background-color: deeppink; border-radius: 20px; font-family: 'Dosis', sans-serif; padding-left: 10px; padding-right: 10px;">
+            <a class="nav-link">sign-up</a>
+          </li>
+        </ul>
+      </links>
+    </div>
+
   </mdb-navbar>
   <!-- Main -->
   <div class="view hm-black-light">
@@ -48,3 +68,4 @@
 
 </main>
 <!--Main Layout-->
+        

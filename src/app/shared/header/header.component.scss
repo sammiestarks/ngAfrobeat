@@ -1,5 +1,27 @@
+.bg-indigo{
+  background-image: url("http://res.cloudinary.com/sammiestarks/image/upload/v1516292351/webCover2_nlqs6x.png") !important;
+}
 
-.view {
-  background: url("http://res.cloudinary.com/sammiestarks/image/upload/v1516292351/webCover2_nlqs6x.png") no-repeat center center;
-  background-size: cover;
+mdb-navbar{
+  color: #abb7c4;
+
+
+  li{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+}
+
+.nav-link{
+  color: #777777;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Dosis', sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.navBar{
+  padding-top: 50px;
 }

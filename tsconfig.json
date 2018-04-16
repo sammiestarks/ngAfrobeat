@@ -11,9 +11,6 @@
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "target": "es5",
-        "module": "commonjs",
-        "noImplicitAny": true,
-        "suppressImplicitAnyIndexErrors": true,
         "typeRoots": [
             "node_modules/@types"
         ],
