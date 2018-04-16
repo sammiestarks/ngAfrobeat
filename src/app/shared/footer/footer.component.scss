@@ -1,0 +1,22 @@
+.footNav{
+  background-image: url("http://res.cloudinary.com/sammiestarks/image/upload/v1516292351/webCover2_nlqs6x.png");
+  background-size: cover;
+  padding: 90px;
+
+  .nav-link{
+    color: white;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: left;
+  }
+
+  h7{
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+  }
+}
