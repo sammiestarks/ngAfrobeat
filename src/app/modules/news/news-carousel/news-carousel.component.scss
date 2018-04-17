@@ -1,7 +1,7 @@
 .highLight{
   background-image: url("http://res.cloudinary.com/sammiestarks/image/upload/v1516292351/webCover2_nlqs6x.png");
   padding-top: 150px;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 
 .searchBar{
@@ -20,4 +20,27 @@
   font-size: 14px;
   text-align: right;
   padding-bottom: 20px;
+}
+
+mdb-slide{
+  img{
+    height: 430px
+  }
+}
+
+.carousel-caption{
+  font-family: 'Dosis', sans-serif;
+  h4{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: whitesmoke;
+  }
+  p{
+    background-color: darkred;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px;
+    font-size: small;
+  }
 }
