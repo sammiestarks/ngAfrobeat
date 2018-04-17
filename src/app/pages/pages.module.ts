@@ -11,6 +11,11 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { IreportpageComponent } from './ireportpage/ireportpage.component';
 import { DetailpageComponent } from './detailpage/detailpage.component';
 import { NewsModule } from 'app/modules/news/news.module';
+import { MusicModule } from 'app/modules/music/music.module';
+import { AdvertsModule } from 'app/modules/adverts/adverts.module';
+import { CelebModule } from 'app/modules/celeb/celeb.module';
+import { EventsModule } from 'app/modules/events/events.module';
+import { TvModule } from 'app/modules/tv/tv.module';
 
 
 @NgModule({
@@ -18,6 +23,11 @@ import { NewsModule } from 'app/modules/news/news.module';
     CommonModule,
     SharedModule,
     NewsModule,
+    MusicModule,
+    AdvertsModule,
+    CelebModule,
+    EventsModule,
+    TvModule
   ],
   declarations: [
     NewspageComponent,

@@ -13,6 +13,12 @@ import { BaseComponent } from './base/base.component';
 
 import { SharedModule } from 'app/shared/shared-module/shared.module';
 import { PagesModule } from './pages/pages.module';
+import { MusicModule } from './modules/music/music.module';
+import { TvModule } from './modules/tv/tv.module';
+import { CelebModule } from './modules/celeb/celeb.module';
+import { IreportModule } from './modules/ireport/ireport.module';
+import { EventsModule } from './modules/events/events.module';
+import { AdvertsModule } from './modules/adverts/adverts.module';
 
 @NgModule({
   declarations: [
@@ -31,7 +37,13 @@ import { PagesModule } from './pages/pages.module';
     }),
     AppRoutingModule,
     SharedModule,
-    PagesModule
+    PagesModule,
+    MusicModule,
+    TvModule,
+    CelebModule,
+    IreportModule,
+    EventsModule,
+    AdvertsModule
   ],
   providers: [MDBSpinningPreloader],
   bootstrap: [AppComponent],
