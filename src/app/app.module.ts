@@ -1,32 +1,23 @@
+import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-
-import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 
 import { AgmCoreModule } from '@agm/core';
 import { ToastModule } from './typescripts/pro/alerts/toast/toast.module';
 import { MDBSpinningPreloader } from './typescripts/pro/index';
 
-
-
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-
 import { BaseComponent } from './base/base.component';
 
-import { FooterComponent } from './shared/footer/footer.component';
-
-
-import { NewsModule } from 'app/modules/news/news.module';
 import { SharedModule } from 'app/shared/shared-module/shared.module';
+import { PagesModule } from './pages/pages.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     BaseComponent,
-
-    FooterComponent,
 
   ],
   imports: [
@@ -40,7 +31,7 @@ import { SharedModule } from 'app/shared/shared-module/shared.module';
     }),
     AppRoutingModule,
     SharedModule,
-    NewsModule
+    PagesModule
   ],
   providers: [MDBSpinningPreloader],
   bootstrap: [AppComponent],

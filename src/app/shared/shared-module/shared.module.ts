@@ -6,6 +6,8 @@ import { MDBBootstrapModulePro } from './../../typescripts/pro/index';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { HeaderComponent } from './../../shared/header/header.component';
+import { FooterComponent } from 'app/shared/footer/footer.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
@@ -13,14 +15,16 @@ import { HeaderComponent } from './../../shared/header/header.component';
     MDBBootstrapModule.forRoot(),
     MDBBootstrapModulePro.forRoot(),
     NgbModule.forRoot(),
+    RouterModule
   ],
-  declarations: [HeaderComponent],
+  declarations: [HeaderComponent, FooterComponent],
   exports: [
     MDBBootstrapModule,
     MDBBootstrapModulePro,
     NgbModule,
     BrowserAnimationsModule,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   schemas:      [ NO_ERRORS_SCHEMA ]
 })
