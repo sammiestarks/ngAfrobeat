@@ -1,0 +1,29 @@
+.sideBarLabels{
+  h3{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    text-transform: uppercase;
+  }
+  img{
+    height: 70px;
+    width: 70px;
+  }
+
+  .spotlightDetails{
+    padding-top: 15px;
+    h5{
+      font-weight: bold;
+      font-size: 14px;
+    }
+    p{
+      font-size: 14px;
+    }
+  }
+
+  .spotlight{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
