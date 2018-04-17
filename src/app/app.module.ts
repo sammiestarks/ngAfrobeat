@@ -24,7 +24,7 @@ import { SharedModule } from 'app/shared/shared-module/shared.module';
 @NgModule({
   declarations: [
     AppComponent,
-    BaseComponent
+    BaseComponent,
 
     FooterComponent,
 
