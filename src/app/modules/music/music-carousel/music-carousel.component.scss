@@ -1,0 +1,27 @@
+.mainWrapper{
+  padding-top: 50px;
+}
+
+.imgDimension{
+  height: 300px;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.mainTitle{
+  h2{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    text-transform: uppercase;
+  }
+}
+
+.carousel-caption{
+  font-family: 'Dosis', sans-serif;
+  h4{
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
