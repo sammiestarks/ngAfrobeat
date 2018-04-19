@@ -8,7 +8,8 @@ import { TvpageComponent } from 'app/pages/tvpage/tvpage.component';
 import { EventpageComponent } from 'app/pages/eventpage/eventpage.component';
 import { CelebpageComponent } from 'app/pages/celebpage/celebpage.component';
 import { IreportpageComponent } from 'app/pages/ireportpage/ireportpage.component';
-import { DetailpageComponent } from 'app/pages/detailpage/detailpage.component';
+// import { DetailpageComponent } from 'app/pages/detailpage/detailpage.component';
+import { NewsDetailsComponent } from 'app/modules/news/news-details/news-details.component';
 
 
 const routes = RouterModule.forRoot([
@@ -46,8 +47,8 @@ const routes = RouterModule.forRoot([
         component: IreportpageComponent
       },
       {
-        path: 'detailpage',
-        component: DetailpageComponent
+        path: 'news-details-page/:id',
+        component: NewsDetailsComponent
       },
       // { path: '', redirectTo: 'home', pathMatch: 'full' },
 

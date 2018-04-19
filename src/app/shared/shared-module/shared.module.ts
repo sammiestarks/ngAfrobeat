@@ -22,6 +22,7 @@ import { RouterModule } from '@angular/router';
     MDBBootstrapModule,
     MDBBootstrapModulePro,
     NgbModule,
+    RouterModule,
     BrowserAnimationsModule,
     HeaderComponent,
     FooterComponent
