@@ -136,6 +136,7 @@ ngOnInit() {
   this.infiniteLoop(this.news, 3);
 }
 
+
 }
 
 
