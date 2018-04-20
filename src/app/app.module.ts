@@ -20,6 +20,7 @@ import { IreportModule } from './modules/ireport/ireport.module';
 import { EventsModule } from './modules/events/events.module';
 import { AdvertsModule } from './modules/adverts/adverts.module';
 import { NewsService } from 'app/modules/news/news.service';
+import { AdminModule } from './admin/admin.module';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { NewsService } from 'app/modules/news/news.service';
     CelebModule,
     IreportModule,
     EventsModule,
-    AdvertsModule
+    AdvertsModule,
+    AdminModule
   ],
   providers: [MDBSpinningPreloader, NewsService],
   bootstrap: [AppComponent],

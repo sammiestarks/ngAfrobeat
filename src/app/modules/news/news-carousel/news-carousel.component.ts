@@ -136,6 +136,7 @@ ngOnInit() {
   this.infiniteLoop(this.news, 3);
 }
 
+
 compare(i){
      if (i === 1){
          return true;

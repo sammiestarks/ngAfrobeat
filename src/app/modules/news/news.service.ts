@@ -10,8 +10,21 @@ export class NewsService {
 
   getNews() {
     // tslint:disable-next-line:no-console
-    console.log(NEWS)
+    // console.log(NEWS)
     return NEWS;
+
+  };
+
+  getOneNews(id) {
+    const user_id = id;
+    const d = NEWS.filter(e => e.id == user_id).map(e => {
+      return e;
+    });
+    console.log('ad', user_id);
+
+    // tslint:disable-next-line:no-console
+    console.log('sd', d)
+    return d;
 
   };
 
