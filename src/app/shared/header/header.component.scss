@@ -4,8 +4,6 @@
 
 mdb-navbar{
   color: #abb7c4;
-
-
   li{
     margin-left: 15px;
     margin-right: 15px;
@@ -23,5 +21,9 @@ mdb-navbar{
 }
 
 .navBar{
-  padding-top: 50px;
+  .navbar{
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }

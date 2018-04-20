@@ -137,6 +137,13 @@ ngOnInit() {
 }
 
 
+compare(i){
+     if (i === 1){
+         return true;
+     }
+     return false;
+}
+
 }
 
 
