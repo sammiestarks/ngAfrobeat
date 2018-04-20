@@ -32,16 +32,16 @@ public newArr;
     if (xos.length ) {
 
       // tslint:disable-next-line:no-console
-      console.log('initial:', xos);
+      // console.log('initial:', xos);
       const a = xos.slice(0, 3);
       this.newArr.push(a);
       xos = xos.splice(3, 3);
       // tslint:disable-next-line:no-console
-      console.log(xos);
+      // console.log(xos);
       // tslint:disable-next-line:no-console
-      console.log(a);
+      // console.log(a);
       // tslint:disable-next-line:no-console
-      console.log(this.newArr);
+      // console.log(this.newArr);
        this.ar (xos);
     }
   }
@@ -64,7 +64,7 @@ public newArr;
 
   compare(i){
      if(i === 1){
-         console.log(i)
+        //  console.log(i)
          return true;
      }
      return false;
