@@ -27,22 +27,24 @@
 
                     <ng-container *ngFor='let o of n; let i = index'>
                         <ng-container *ngIf="compare(i)">
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <a [routerLink]="['/news-details-page', o.id]">
 
-                                        <img class="imgDimension" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg" alt="Card image cap">
-                                        <div class="carousel-caption">
-                                            <h4>{{o.title}}</h4>
-                                            <p>We had such a great time in LA!</p>
-                                        </div>
-                                    </a>
+                    <div class="col-md-4"  >
+                            <a [routerLink]="['/news-details-page', o.id]">
+                        <div class="card">
+
 
                                 </div>
-                            </div>
-                        </ng-container>
+
+                        </div>
+                            </a>
+                    </div>
+
+
+                  </ng-container>
                         <ng-container *ngIf="!compare(i)">
-                            <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="col-md-4 clearfix d-none d-md-block"  >
+                                <a [routerLink]="['/news-details-page', o.id]">
+
                                 <div class="card">
                                     <img class="imgDimension" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).jpg" alt="Card image cap">
                                     <div class="carousel-caption">
@@ -50,6 +52,7 @@
                                         <p>We had such a great time in LA!</p>
                                     </div>
                                 </div>
+                                </a>
                             </div>
                         </ng-container>
                     </ng-container>

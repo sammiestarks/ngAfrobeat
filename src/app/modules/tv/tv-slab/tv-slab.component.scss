@@ -13,6 +13,26 @@
 }
 
 .tvLinkr{
+padding-bottom: 50px;
+  .nav{
+    .nav-item{
+
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+      a{
+        h4{
+          font-family: 'Dosis', sans-serif;
+          font-size: 14px;
+          color: black;
+          font-weight: bold;
+          text-transform: none;
+          margin-bottom: 0;
+          text-decoration: none;
+        }
+      }
+    }
+  }
   a{
     float: right;
   }
