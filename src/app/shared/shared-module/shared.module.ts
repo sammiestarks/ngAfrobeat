@@ -5,6 +5,8 @@ import { MDBBootstrapModule } from './../../typescripts/free';
 import { MDBBootstrapModulePro } from './../../typescripts/pro/index';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
+import { FormsModule } from '@angular/forms'
+
 import { HeaderComponent } from './../../shared/header/header.component';
 import { FooterComponent } from 'app/shared/footer/footer.component';
 import { RouterModule } from '@angular/router';
@@ -15,7 +17,8 @@ import { RouterModule } from '@angular/router';
     MDBBootstrapModule.forRoot(),
     MDBBootstrapModulePro.forRoot(),
     NgbModule.forRoot(),
-    RouterModule
+    RouterModule,
+    FormsModule
   ],
   declarations: [HeaderComponent, FooterComponent],
   exports: [
@@ -23,6 +26,7 @@ import { RouterModule } from '@angular/router';
     MDBBootstrapModulePro,
     NgbModule,
     RouterModule,
+    FormsModule,
     BrowserAnimationsModule,
     HeaderComponent,
     FooterComponent
