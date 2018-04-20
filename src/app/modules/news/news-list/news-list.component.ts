@@ -62,4 +62,12 @@ public newArr;
     this.breakIntoThrees(this.news);
   }
 
+  compare(i){
+     if(i === 1){
+         console.log(i)
+         return true;
+     }
+     return false;
+  }
+
 }
