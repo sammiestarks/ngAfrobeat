@@ -27,9 +27,15 @@
         <mdb-carousel [isControls]="false" class="carousel-multi-item multi-animation" [type]="''" [animation]="'slide'">
             <!--slide-->
             <mdb-slide *ngFor='let n of newArr'>
-                <div class="col-md-4 " *ngFor='let o of n; let i =index'>
-                    <div class="card">
-                        <a [routerLink]="['/news-details-page', o.id]">
+
+              
+
+
+                    <ng-container *ngFor='let o of n; let i = index'>
+                        <ng-container *ngIf="compare(i)">
+                            <div class="col-md-4" >
+                        <div class="card">
+
                             <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg" alt="Card image cap">
                             <div class="carousel-caption">
                                 <h4>{{o.title}}</h4>
@@ -37,10 +43,27 @@
                                     <p>News</p>
                                 </div>
                             </div>
-                        </a>
 
-                    </div>
-                </div>
+                        </div>
+                            </div>
+                        </ng-container>
+                        <ng-container *ngIf="!compare(i)">
+                            <div class="col-md-4 clearfix d-none d-md-block" >
+                            <div class="card">
+                                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg" alt="Card image cap">
+                                <div class="carousel-caption">
+                                    <h4>{{o.title}}</h4>
+                                    <div class="col-md-4">
+                                        <p>News</p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </ng-container>
+
+                    </ng-container>
+
+
 
 
             </mdb-slide>
