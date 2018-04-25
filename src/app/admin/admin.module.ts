@@ -1,3 +1,4 @@
+
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SharedModule } from 'app/shared/shared-module/shared.module';
@@ -20,3 +21,4 @@ import { AdminComponent } from './admin.component';
   schemas: [NO_ERRORS_SCHEMA]
 })
 export class AdminModule { }
+

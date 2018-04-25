@@ -1,6 +1,6 @@
 import { Component, EventEmitter, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { UploadFile, UploadInput, UploadOutput } from '../../../../app/typescripts/pro/file-input';
-import { humanizeBytes } from '../../../../app/typescripts/pro/file-input'
+import { humanizeBytes } from '../../../../app/typescripts/pro/file-input';
 import { NewsService } from 'app/modules/news/news.service';
 
 @Component({
@@ -84,7 +84,7 @@ export class ListNewsComponent implements OnInit {
       submitNewsForm(f) {
         console.log(f.value, this.newsArray);
         this.newsArray.unshift(f.value);
-        this.newsModal.hide()
+        // this.newsModal.hide();
 
       }
 
