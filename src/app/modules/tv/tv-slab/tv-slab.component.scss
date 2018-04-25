@@ -52,5 +52,24 @@ padding-bottom: 50px;
       }
     }
   }
+
+  .scrollbar
+  {
+    height: 450px;
+    width: 100%;
+    max-width: 100%;
+    background: #ffebee;
+    overflow-y: scroll;
+  }
+
+  .force-overflow
+  {
+    min-height: 450px;
+  }
+
+  img{
+    height: 70px;
+    width: 70px;
+  }
 }
 
