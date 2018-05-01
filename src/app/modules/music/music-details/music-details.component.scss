@@ -1,9 +1,7 @@
 .highLight{
   background-image: url("http://res.cloudinary.com/sammiestarks/image/upload/v1516292351/webCover2_nlqs6x.png");
-  background-size: cover;
   padding-top: 150px;
   padding-bottom: 60px;
-  overflow-x: hidden;
 }
 
 .searchBar{
@@ -33,31 +31,11 @@
   margin-left: 500px;
 }
 
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {
-  .headerTitle{
-    margin-left: 140px;
-  }
-}
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) { }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) {}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) { }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {}
-
-
 .mainWrapper{
   padding-top: 50px;
 }
 
-.newsDetail{
+.Detail{
   h1{
     font-family: 'Dosis', sans-serif;
     font-size: 36px;
@@ -81,7 +59,7 @@
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    width: 100%;
+    width: 800px;
     height: auto;
     border: 0;
     max-width: 100%;
@@ -89,7 +67,6 @@
   }
 
   .subPic{
-    margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -134,6 +111,15 @@
         font-family: 'Dosis', sans-serif;
         font-weight: bold;
       }
+    }
+  }
+
+  .itemDetails{
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+    .fa{
+      color: gold;
     }
   }
 }
