@@ -34,7 +34,7 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
   .headerTitle{
-    margin-left: 150px;
+    margin-left: 140px;
   }
 }
 
@@ -288,3 +288,84 @@
     }
   }
 }
+
+
+
+
+
+///
+.mainWrapper{
+  padding-top: 50px;
+}
+
+.mainTitle{
+  h2{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    text-transform: uppercase;
+  }
+}
+
+.tvLinkr{
+  padding-bottom: 50px;
+  .nav{
+    .nav-item{
+
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+      a{
+        h4{
+          font-family: 'Dosis', sans-serif;
+          font-size: 14px;
+          color: black;
+          font-weight: bold;
+          text-transform: none;
+          margin-bottom: 0;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  a{
+    float: right;
+  }
+
+  video{
+    max-width: 100%;
+    height: 430px;
+    width: 740px;
+  }
+
+  mdb-carousel{
+    mdb-slide{
+      video{
+        max-width: 100%;
+        height: 430px;
+        width: 740px;
+      }
+    }
+  }
+
+  .scrollbar
+  {
+    height: 450px;
+    width: 100%;
+    max-width: 100%;
+    background: #ffebee;
+    overflow-y: scroll;
+  }
+
+  .force-overflow
+  {
+    min-height: 450px;
+  }
+
+  img{
+    height: 70px;
+    width: 70px;
+  }
+}
+
