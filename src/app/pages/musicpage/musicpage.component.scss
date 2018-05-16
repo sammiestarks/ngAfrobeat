@@ -13,6 +13,13 @@
   color: white;
 }
 
+.imgDimension{
+  img{
+    height: 300px;
+    width: 100%;
+  }
+}
+
 .socialRow{
   color: white;
   font-family: 'Dosis', sans-serif;
@@ -29,7 +36,7 @@
   font-family: 'Dosis', sans-serif;
   color: white;
   text-transform: uppercase;
-  margin-left: 450px;
+  margin-left: 520px;
 }
 
 // Extra small devices (portrait phones, less than 576px)
@@ -179,6 +186,29 @@
     font-size: 24px;
     font-family: 'Dosis', sans-serif;
     color: black;
+    text-transform: uppercase;
+  }
+
+  h3{
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+  }
+
+  h6{
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+  }
+
+  p{
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+  }
+
+
+  a{
+    font-family: 'Dosis', sans-serif;
     text-transform: uppercase;
   }
 }
