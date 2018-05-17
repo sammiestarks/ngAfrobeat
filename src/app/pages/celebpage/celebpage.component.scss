@@ -1,5 +1,6 @@
 .highLight{
   background-image: url("http://res.cloudinary.com/sammiestarks/image/upload/v1516292351/webCover2_nlqs6x.png");
+  background-size: cover;
   padding-top: 150px;
   padding-bottom: 60px;
 }
@@ -28,13 +29,13 @@
   font-family: 'Dosis', sans-serif;
   color: white;
   text-transform: uppercase;
-  margin-left: 450px;
+  margin-left: 470px;
 }
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
   .headerTitle{
-    margin-left: 140px;
+    margin-left: 110px;
   }
 }
 
@@ -141,12 +142,6 @@
     img{
       height: 70px;
       width: 70px;
-    }
-  }
-
-  .tagNavs{
-    a{
-      margin-right: 5px;
     }
   }
 
